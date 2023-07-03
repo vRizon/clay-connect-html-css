@@ -7,8 +7,46 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="connect-container">
-        Hello
+    <!-- Container is the entire viewport -->
+    <div class="container">
+      <!-- Connect-container is the box  -->
+      <div class="connect-container">
+        <!-- Connect-steps-list is the multi-step progress bar -->
+        <!-- <div class="connect-steps"></div> -->
+        <ul class="connect-steps-list">
+          <li class="connect-step-item">
+            <span class="progress-count">1</span>
+            <span class="progress-label">Select Cardano wallet</span>
+          </li>
+          <li class="connect-step-item current-item">
+            <span class="progress-count">2</span>
+            <span class="progress-label">Select Polygon wallet</span>
+          </li>
+          <li class="connect-step-item">
+            <span class="progress-count">3</span>
+            <span class="progress-label">Link wallets</span>
+          </li>
+        </ul>
+
+        <!-- Connect-heading is the general heading of all steps -->
+        <!-- Connect-heading-NAME is the for each step heading-->
+        <h2 class="connect-heading heading-cardano-wallets">
+          Connect your Cardano wallets
+        </h2>
+        <!-- <h2 class="connect-heading heading-polygon-wallets">
+              Connect your Polygon wallets
+            </h2>
+            <h2 class="connect-heading heading-link-wallets">Link your wallets</h2>
+            <h2 class="connect-heading heading-link-wallets">All setup! 
+              Have a happy Clay Day!</h2> -->
+
+        <!-- Connect-Wallet-list is for list with all wallets -->
+        <div class="conect-wallet-list">
+          <div class="connect-wallet-item nami-wallet">NAMI</div>
+          <div class="connect-wallet-item eternl-wallet">ETERNL</div>
+          <div class="connect-wallet-item yoroi-wallet">YOROI</div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
